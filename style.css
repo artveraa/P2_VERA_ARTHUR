@@ -210,3 +210,168 @@ a{
     letter-spacing: .03em;
 }
 
+    /* INFORMATIONS BLOCK */
+
+.informations-block{
+    margin: 30px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.informations-icone{
+    width: 20px;
+    height: 20px;
+    background-color: transparent;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    position: relative;
+    padding: 10px;
+}
+
+.fa-info{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #0065FC;
+}
+
+/* SECTION LOGEMENTS */
+
+    /* RESULTATS DE RECHERCHE */
+
+.log-container{
+    background-color: #F2F2F2;
+    padding: 35px 30px;
+    border-radius: 15px;
+}
+
+.logements-results{
+    width: 75%;
+    height: max-content;
+}
+
+.logements-results > .h2-title{
+    margin-bottom: 35px;
+}
+
+.logements{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.logements-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2rem;
+
+}
+
+.log-card{
+    width: 31%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background: #FFFFFF;
+    border-radius: 15px;
+    border: 5px solid #FFFFFF;
+    overflow: hidden;
+    height: 300px;
+    min-width: 200px;
+    padding-bottom: 10px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: box-shadow .5s;
+}
+
+.log-card:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.log-card-img{
+    max-height: 65%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.log-card-title, .log-card-text, .stars{
+
+    padding-left: 20px;
+}
+
+.log-card-title{
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+.fa-star{
+    color: #0065FC;
+}
+
+.fa-star-grey{
+    color: #F2F2F2;
+}
+
+.load-more{
+    padding-top: 30px;
+    font-weight: 700;
+    font-size: 1.2em;
+}
+
+    /* MOST POPULAR */
+
+.most-popular{
+    width: 25%;
+}
+
+.most-popular-cards{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.most-popular > .h2-title{
+    margin-bottom: 35px;
+}
+
+.mp-card{
+    border-radius: 15px;
+    overflow: hidden;
+    background-color: #fff;
+    border: 5px solid #FFFFFF;
+    display: flex;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    transition: box-shadow .5s;
+}
+
+.mp-card:hover {
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.mp-card-img{
+    max-width: 40%;
+    object-fit: cover;
+    object-position: center center;
+}
+
+.mp-card-title{
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 10px 0 5px 0;
+}
+
+.mp-card-title, .mp-card-text, .stars-mp{
+
+    padding-left: 20px;
+}
+
+.stars-mp{
+    margin-top: 50%;
+    padding-bottom: 10px;
+}
+
