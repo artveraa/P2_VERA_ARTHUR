@@ -5,7 +5,11 @@
 }
 body {
     font-family: 'Raleway', sans-serif;
-    font-size: 12px;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 1.6em;
 }
 
 ul{
@@ -30,7 +34,7 @@ li:hover{
 .navbar{
     display: flex;
     justify-content: space-between;
-    padding-top: 35px;
+    padding: 35px 0;
 }
 
 .navbar-items{
@@ -60,4 +64,74 @@ li:hover{
     color: #0065FC;
 }
 
+    /* HEADER TITLES */
+
+.header-title{
+    padding-bottom: 6px;
+}
+
+.header-subtitle{
+    font-size: 1.19em;
+    padding-bottom: 20px;
+}
+
+    /* HEADER SEARCHBAR */
+
+.header-searchbar{
+    width: 400px;
+    height: 40px;
+    border-radius: 15px;
+    overflow: hidden;
+    display: flex;
+
+}
+
+.searchbar-icone{
+    background-color: #F2F2F2;
+    height: 100%;
+    width: 12%;
+    border: solid 1px #F2F2F2;
+    position: relative;
+}
+
+.fa-map-marker-alt{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+.searchbar-placeholder{
+    height: 100%;
+    width: 61%;
+    margin: 0;
+    padding: 0 10px;
+    border: none;
+    outline: none;
+    border-top: 1px solid #F2F2F2;
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.searchbar-placeholder, placeholder{
+    color: black;
+    opacity: 1;
+    font-weight: 500;
+    font-size: 1.1em;
+}
+
+.searchbar-btn{
+    width: 27%;
+    background-color: #0065FC;
+    outline: none;
+    border: solid 1px #0065FC;
+    height: 100%;
+    color: #FFF;
+    padding: 0 10px;
+}
+
+.searchbar-btn:hover{
+    cursor: pointer;
+    box-shadow: inset 0px 0px 10px rgba(255,255,255,0.3);
+}
 
