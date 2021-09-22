@@ -11,7 +11,8 @@
     <script src="https://kit.fontawesome.com/8b12bff3c8.js" crossorigin="anonymous"></script>
 
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width: 700px)">
+    <title>Réservia</title>
 </head>
 <body>
     <header class="head container">
@@ -33,7 +34,9 @@
                 <i class="fas fa-map-marker-alt"></i>
             </div>
             <input type="text" placeholder="Marseille, France" class="searchbar-placeholder">
-            <button class="searchbar-btn">Rechercher</button>
+            <button class="searchbar-btn">
+                <i class="fas fa-search"></i>
+                <p class="text-btn">Rechercher</p> </button>
         </div>
     </header>
 
@@ -78,12 +81,12 @@
             <p class="informations-text">Plus de 500 logements sont disponibles dans cette ville</p>
         </div>
 
-        <section class="logements">
-            <div class="logements-results log-container">
+        <div class="logements">
+            <section class="logements-results log-container">
                 <h2 class="h2-title">Hébergements à Marseille</h2>
 
                 <div class="logements-cards">
-                    <div class="log-card">
+                    <article class="log-card">
                         <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
                         <p class="log-card-title">Auberge de la Canebière</p>
                         <p class="log-card-text">Nuit à partir de <span>25€</span></p>
@@ -94,9 +97,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star fa-star-grey"></i>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="log-card">
+                    <article class="log-card">
                         <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
                         <p class="log-card-title">Auberge de la Canebière</p>
                         <p class="log-card-text">Nuit à partir de <span>25€</span></p>
@@ -107,35 +110,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="log-card">
-                        <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
-                        <p class="log-card-title">Auberge de la Canebière</p>
-                        <p class="log-card-text">Nuit à partir de <span>25€</span></p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star fa-star-grey"></i>
-                        </div>
-                    </div>
-
-                    <div class="log-card">
-                        <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
-                        <p class="log-card-title">Auberge de la Canebière</p>
-                        <p class="log-card-text">Nuit à partir de <span>25€</span></p>
-                        <div class="stars">
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star"></i>
-                            <i class="fas fa-star fa-star-grey"></i>
-                            <i class="fas fa-star fa-star-grey"></i>
-                        </div>
-                    </div>
-
-                    <div class="log-card">
+                    <article class="log-card">
                         <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
                         <p class="log-card-title">Auberge de la Canebière</p>
                         <p class="log-card-text">Nuit à partir de <span>25€</span></p>
@@ -146,9 +123,35 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star fa-star-grey"></i>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="log-card">
+                    <article class="log-card">
+                        <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
+                        <p class="log-card-title">Auberge de la Canebière</p>
+                        <p class="log-card-text">Nuit à partir de <span>25€</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star fa-star-grey"></i>
+                            <i class="fas fa-star fa-star-grey"></i>
+                        </div>
+                    </article>
+
+                    <article class="log-card">
+                        <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
+                        <p class="log-card-title">Auberge de la Canebière</p>
+                        <p class="log-card-text">Nuit à partir de <span>25€</span></p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star fa-star-grey"></i>
+                        </div>
+                    </article>
+
+                    <article class="log-card">
                         <img src="img/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="" class="log-card-img">
                         <p class="log-card-title">Auberge de la Canebière</p>
                         <p class="log-card-text">Nuit à partir de <span>25€</span></p>
@@ -159,20 +162,20 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                         </div>
-                    </div>
+                    </article>
                 </div>
 
                 <p class="load-more">Afficher plus</p>
-            </div>
+            </section>
 
-            <div class="most-popular log-container">
+            <section class="most-popular log-container">
                 <div class="most-popular-header">
                     <h2 class="h2-title">Les plus populaires</h2>
                     <i class="fas fa-chart-line fa-lg"></i>
                 </div>
 
                 <div class="most-popular-cards">
-                    <div class="mp-card">
+                    <article class="mp-card">
                         <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="mp-card-img">
                         <div class="mp-card-content">
                             <p class="mp-card-title">Hôtel Le soleil du matin</p>
@@ -185,9 +188,9 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="mp-card">
+                    <article class="mp-card">
                         <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="mp-card-img">
                         <div class="mp-card-content">
                             <p class="mp-card-title">Hôtel Le soleil du matin</p>
@@ -200,9 +203,9 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
+                    </article>
 
-                    <div class="mp-card">
+                    <article class="mp-card">
                         <img src="img/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="" class="mp-card-img">
                         <div class="mp-card-content">
                             <p class="mp-card-title">Hôtel Le soleil du matin</p>
@@ -215,12 +218,13 @@
                                 <i class="fas fa-star"></i>
                             </div>
                         </div>
-                    </div>
+                    </article>
                 </div>
-            </div>
-        </section>
+            </section>
+        </div>
         
         <section class="activities">
+            <h2 class="h2-title">Activités à Marseille</h2>
             <div class="cards-grid">
                 <div class="act-card elem-1">
                     <img src="img/activites/1_xlarge/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="vieux port" class="act-card-img">
@@ -254,5 +258,26 @@
             </div>
         </section>
     </main>
+
+    <footer class="footer">
+        <div class="first-col">
+            <div class="footer-title">À propos</div>
+            <p class="footer-text">Fonctionnement du site</p>
+            <p class="footer-text">Conditions générales de vente</p>
+            <p class="footer-text">Données et confidentialité</p>
+        </div>
+
+        <div class="second-col">
+            <div class="footer-title">Nos hébergements</div>
+            <p class="footer-text">Charte qualité</p>
+            <p class="footer-text">Soumettre votre hôtel</p>
+        </div>
+
+        <div class="third-col">
+            <div class="footer-title">Assistance</div>
+            <p class="footer-text">Centre d'aide</p>
+            <p class="footer-text">Nous contacter</p>
+        </div>
+    </footer>
 </body>
 </html>
