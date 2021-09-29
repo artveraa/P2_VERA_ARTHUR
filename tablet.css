@@ -15,11 +15,27 @@
 }
 
 .logements {
-    flex-direction: column;
+    flex-direction: column-reverse;
+
 }
 
 .logements-results {
     width: 100%;
+    background-color: #FFFFFF;
+    padding: 0;
+}
+
+.logements-cards{
+    gap: 1.3rem;
+}
+
+.log-card{
+    flex: 1 1 40%;
+}
+
+.log-card-title, .log-card-text, .stars {
+
+    padding-top: 10px;
 }
 
 .most-popular {
