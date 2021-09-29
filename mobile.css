@@ -210,14 +210,23 @@ body {
 }
 
 .cards-grid{
-    display: flex;
-    flex-direction: column;
+    display: block;
+    height: max-content;
+
 }
 
-.cards-grid.act-card{
-    grid-column: none;
-    grid-row: none;
+.act-card{
+    margin-bottom: 30px;
 }
+
+.act-card:last-child{
+    margin-bottom: 0px;
+}
+
+.act-card img{
+    height: 200px;
+}
+
 
 /* FOOTER */
 

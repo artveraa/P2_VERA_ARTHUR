@@ -1,0 +1,66 @@
+.container {
+    padding: 0 60px;
+}
+
+.filters-block {
+    flex-wrap: wrap;
+}
+
+.filters-nav {
+    width: 100%;
+}
+
+.filter-tag {
+    font-size: .63rem;
+}
+
+.logements {
+    flex-direction: column;
+}
+
+.logements-results {
+    width: 100%;
+}
+
+.most-popular {
+    width: 100%;
+}
+
+.mp-card-img {
+    max-width: 50%;
+}
+
+.cards-grid {
+    grid-template-columns: repeat(3, 1fr);
+    height: max-content;
+}
+
+.act-card {
+    height: 300px;
+}
+
+.act-card-title {
+    font-size: .71rem;
+}
+
+.elem-3 {
+    grid-column: 1 / 2;
+}
+
+.elem-6 {
+    grid-row: 2 / 3;
+    grid-column: 3 / 4;
+}
+
+.footer {
+    padding: 35px 60px;
+    justify-content: space-between;
+}
+
+.footer-title{
+    font-size: 1.1rem;
+}
+
+.footer-text{
+    padding-bottom: 1rem;
+}
