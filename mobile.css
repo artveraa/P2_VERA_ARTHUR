@@ -134,63 +134,62 @@ body {
 
 /* INFORMATIONS BLOCK */
 
-.informations-block{
+.informations-block {
     padding: 0 30px;
     width: 100%;
 }
 
-.informations-text{
+.informations-text {
     font-size: .9em;
 }
 
 /* SECTION LOGEMENTS */
 
-.logements{
+.logements {
     flex-direction: column-reverse;
 }
 
-.log-container{
+.log-container {
     border-radius: 0;
 }
 
-    /* RESULTATS DE RECHERCHE */
+/* RESULTATS DE RECHERCHE */
 
-.logements-results{
+.logements-results {
     width: 100%;
 }
 
-.logements-results.log-container{
+.logements-results.log-container {
     background-color: #ffffff;
     padding-top: 0;
 }
 
-.logements-cards{
+.logements-cards {
     flex-direction: column;
     flex-wrap: nowrap;
 }
 
-.log-card-img{
+.log-card-img {
     max-height: 150px;
 }
 
-.log-card-title, .log-card-text, .stars{
+.log-card-title, .log-card-text, .stars {
     padding-top: 10px;
 }
 
 
+/* MOST POPULAR */
 
-    /* MOST POPULAR */
-
-.most-popular{
+.most-popular {
     width: 100%;
-    order: 1;
+
 }
 
-.mp-card-title{
+.mp-card-title {
     font-size: 1em;
 }
 
-.mp-card-text{
+.mp-card-text {
     font-size: .9em;
 }
 
@@ -199,38 +198,38 @@ body {
     padding-right: 20px;
 }
 
-.stars-mp{
+.stars-mp {
     margin-top: 25%;
 }
 
 /* SECTION ACTIVITES */
 
-.activities{
+.activities {
     padding: 0 30px 20px 30px;
 }
 
-.cards-grid{
+.cards-grid {
     display: block;
     height: max-content;
 
 }
 
-.act-card{
+.act-card {
     margin-bottom: 30px;
 }
 
-.act-card:last-child{
+.act-card:last-child {
     margin-bottom: 0px;
 }
 
-.act-card img{
+.act-card img {
     height: 200px;
 }
 
 
 /* FOOTER */
 
-.footer{
+.footer {
     flex-direction: column;
     gap: 30px;
 }

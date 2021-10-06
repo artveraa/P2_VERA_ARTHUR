@@ -297,6 +297,7 @@ a {
     padding-bottom: 10px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: box-shadow .5s;
+    height: 30vh;
 }
 
 .log-card:hover {
@@ -305,7 +306,7 @@ a {
 }
 
 .log-card-img {
-    max-height: 65%;
+    height: 65%;
     object-fit: cover;
     object-position: center center;
 }
@@ -365,6 +366,7 @@ a {
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     transition: box-shadow .5s;
     flex: 1 1 30%;
+
 }
 
 .mp-card:hover {
@@ -373,7 +375,7 @@ a {
 }
 
 .mp-card-img {
-    max-width: 40%;
+    width: 40%;
     object-fit: cover;
     object-position: center center;
 }
@@ -389,8 +391,14 @@ a {
     padding-left: 20px;
 }
 
+.mp-card-description{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
 .stars-mp {
-    margin-top: 50%;
+
     padding-bottom: 10px;
 }
 
